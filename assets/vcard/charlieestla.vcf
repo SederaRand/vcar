@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:;Charlie;;;
+FN;CHARSET=utf-8:Charlie Estla
+ORG;CHARSET=utf-8:Agent Immobilier
+TITLE;CHARSET=utf-8:
+EMAIL;INTERNET:ouicharlieestla@gmail.com
+TEL;PREF;WORK:0033660665126
+URL;WORK:
+ADR;WORK;CHARSET=utf-8:;;;;;;
+END:VCARD

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+h1.title {
+	color: #808080;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h2.title {
+	color: #A9A9A9;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h3.title {
+	color: #80808F;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+p {
+	color: #212529;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+a {
+	color: #212529;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+a:hover {	
+	color: #212529;
+	text-decoration: none;
+}
+.container, .container-fluid {
+	padding-left: 15px;
+ 	padding-top: 15px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+[class*="col"] {
+	text-align: center;
+}
+
+#contact, #mes_biens_immo, #reseau {
+	margin-top : 20px;
+}
+
+.card {			
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+.card:hover {
+  box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo_content {
+	padding: 0px 15px 0px 15px;
+}
+
+img.logo {
+    width: 10%;
+    float: right;
+}
+
+img.avatar {
+    width: 45%;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+hr {
+	background-color: #dcdcdc;
+  	color: #dcdcdc ;
+  	border: solid 1px #dcdcdc;
+}
+
+hr.header-divider{
+  width: 100%;
+  margin-top: -44px;
+  margin-bottom: 55px;
+}
+
+#contact .row {
+	margin-top: 8px;
+}
+
+a.round_icons {
+	color: #A9A9A9;
+	font-size: 1.5em;
+}
+
+.button{
+  display: block;
+  width: 90%;
+  padding: 12px;
+  text-decoration: none;
+  color: #ffffff !important;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.button:hover{
+  color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgb(223, 217, 217);
+  text-decoration: none;
+}
+
+.button.blue {
+  background-color: #00648E;
+}
+
+.button.orange {
+  background-color: #FF5733;
+}
+
+/*responsive begin*/
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .container, .container-fluid {
+		max-width: 90%;
+	}
+	p {
+		font-size: 0.8em;
+	}
+
+	a {
+		font-size: 0.8em;
+	}
+	a.round_icons {
+		font-size: 1.3em;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.container, .container-fluid {
+		max-width: 50%;
+	}
+}
+
+@media  only screen and (min-width: 992px) {
+	.container, .container-fluid {
+		max-width: 50%;
+	}
+}
+
+@media  only screen and (min-width: 1200px) {
+	.container, .container-fluid {
+		max-width: 30%;
+	}
+}
+
+.messenger_color {
+  color: #0078FF;
+}
+
+.sms_color {
+  color: #FFCF45;
+}
+
+.whatsapp_color {
+  color: #25d366;
+}
+
+.email_color {
+  color: #db4a39;
+}
+
+
+
+
+
+/*responsive end*/
+
+
+
+
+
+
